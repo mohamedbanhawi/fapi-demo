@@ -31,10 +31,6 @@ def update_city_time(city):
 
 #### endpoints
 
-@app.get('/')
-def index():
-    return {'key': 'value'}
-
 @app.get('/cities')
 async def get_cities_endpoint(background_tasks: BackgroundTasks):
     for city in city_db:
