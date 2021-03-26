@@ -13,3 +13,9 @@ pip install fastapi[all]
 ### run server
 
 uvicorn main:app --reload
+
+### view api docs
+
+-run server
+
+-swagger ui docs http://127.0.0.1:8000/docs
